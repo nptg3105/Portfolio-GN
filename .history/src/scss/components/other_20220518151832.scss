@@ -1,0 +1,22 @@
+@use "../globals" as *;
+@use "../utilities" as *;
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.line1,
+.line2 {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: white;
+  pointer-events: none;
+}

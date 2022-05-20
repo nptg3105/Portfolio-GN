@@ -1,0 +1,16 @@
+@use "../globals" as *;
+@use "../utilities" as *;
+
+.fashion1,
+.fashion2,
+.fashion3 {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}

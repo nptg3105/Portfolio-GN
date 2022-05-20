@@ -1,0 +1,114 @@
+@use "../globals" as *;
+@use "../utilities" as *;
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.line1,
+.line2 {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: white;
+  pointer-events: none;
+}
+
+.slide {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #17181a;
+}
+
+.hero-img {
+  width: 50%;
+  position: relative;
+  height: 60vh;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: rem(30);
+  position: relative;
+
+  h2 {
+    font-family: "Abril Fatface";
+    font-size: rem(55);
+    letter-spacing: 2px;
+  }
+
+  p {
+    padding: rem(20) 0;
+    font-size: rem(16);
+    color: rgba(223, 223, 223);
+  }
+}
+
+.mountain-span {
+  color: rgba(86, 124, 228);
+}
+.hike-span {
+  color: rgba(167, 110, 231);
+}
+.fashion-span {
+  color: rgba(255, 139, 93);
+}
+
+.explore {
+  padding: 1rem 2rem;
+  border: none;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: rem(16);
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  // clip-path: circle(50px at 100% -10%);
+  // -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: rem(40);
+  flex-basis: 30rem;
+  padding: 0 rem(60);
+}
+
+.contact {
+  padding: 0 rem(50);
+}
