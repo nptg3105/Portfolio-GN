@@ -21,14 +21,13 @@ function animateSlide() {
       defaults: { duration: 1, ease: "power2.inOut" },
     });
 
-    slideTimeline.fromTo(revealImg, { x: "0%" }, { x: "200%" });
+    slideTimeline.fromTo(revealImg, { x: "0%" }, { x: "100%" });
     slideTimeline.fromTo(img, { scale: 2 }, { scale: 1 }, "-=1");
     slideTimeline.fromTo(
       revealText,
       { x: "0%" },
-      { x: "300%" },
+      { x: "200%" },
       { visibility: "hidden" },
-      { opacity: 0 },
       "-=0.75"
     );
     // slideTimeline.fromTo(nav, { y: "-100%" }, { y: "0" }, "-=0.5");

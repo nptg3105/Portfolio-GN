@@ -1,6 +1,8 @@
 @use "../globals" as *;
 @use "../utilities" as *;
-
+body {
+  // overflow: hidden;
+}
 .nav-header {
   min-height: 10vh;
   font-size: rem(16);
