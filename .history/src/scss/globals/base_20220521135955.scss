@@ -1,0 +1,72 @@
+@use "./variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #17181a;
+  height: 100vh;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+main {
+  position: absolute;
+}
+
+#logo {
+  font-family: "Abril Fatface";
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (max-width: 767px) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: $xxs-min) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: $xs-min) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: $sm-min) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: $md-min) {
+  .container {
+    max-width: $container-width;
+  }
+}
