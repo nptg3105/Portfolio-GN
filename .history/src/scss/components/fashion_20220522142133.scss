@@ -1,15 +1,17 @@
 @use "../globals" as *;
 @use "../utilities" as *;
 
-.fashion1 {
-  // min-height: 90vh;
+.fashion1,
+.fashion2,
+.fashion3 {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  //   width: 70%;
   margin: auto;
-  // width: 80%;
   color: white;
-  margin-top: rem(40);
+  margin-top: 50px;
   position: relative;
 }
 
@@ -45,17 +47,6 @@
   }
 }
 
-.btn-download,
-.btn-project {
-  padding: rem(16) rem(30);
-  margin-right: rem(15);
-}
-
-.btn-download {
-  background-color: var(--white-cl);
-  color: var(--black-cl);
-}
-
 .fashion-text {
   width: 50%;
 
@@ -77,9 +68,7 @@
 
   p {
     font-size: rem(16);
-    padding-right: rem(80);
-    margin-bottom: rem(40);
-    text-align: justify;
+    padding-right: 20px;
   }
 }
 

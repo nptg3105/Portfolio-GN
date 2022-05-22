@@ -2,14 +2,14 @@
 @use "../utilities" as *;
 
 .fashion1 {
-  // min-height: 90vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  // width: 80%;
+  width: 80%;
   color: white;
-  margin-top: rem(40);
+  margin-top: 50px;
   position: relative;
 }
 

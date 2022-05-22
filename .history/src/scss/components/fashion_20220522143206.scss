@@ -1,15 +1,17 @@
 @use "../globals" as *;
 @use "../utilities" as *;
 
-.fashion1 {
-  // min-height: 90vh;
+.fashion1,
+.fashion2,
+.fashion3 {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  //   width: 70%;
   margin: auto;
-  // width: 80%;
   color: white;
-  margin-top: rem(40);
+  margin-top: 50px;
   position: relative;
 }
 
@@ -52,8 +54,7 @@
 }
 
 .btn-download {
-  background-color: var(--white-cl);
-  color: var(--black-cl);
+  background-color: var(--black-cl);
 }
 
 .fashion-text {
@@ -77,9 +78,8 @@
 
   p {
     font-size: rem(16);
-    padding-right: rem(80);
+    padding-right: 20px;
     margin-bottom: rem(40);
-    text-align: justify;
   }
 }
 

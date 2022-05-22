@@ -2,14 +2,14 @@
 @use "../utilities" as *;
 
 .fashion1 {
-  // min-height: 90vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  //   width: 70%;
   margin: auto;
-  // width: 80%;
   color: white;
-  margin-top: rem(40);
+  margin-top: 50px;
   position: relative;
 }
 
@@ -77,7 +77,7 @@
 
   p {
     font-size: rem(16);
-    padding-right: rem(80);
+    padding-right: rem(70);
     margin-bottom: rem(40);
     text-align: justify;
   }
