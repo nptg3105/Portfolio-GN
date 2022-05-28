@@ -36,10 +36,6 @@
   background-color: var(--black-cl);
 }
 
-.slide.reverse {
-  flex-direction: row-reverse;
-}
-
 .hero-img {
   width: 50%;
   position: relative;
@@ -222,9 +218,6 @@
 }
 .t-swipe3 {
   background-color: var(--orange-cl);
-}
-.t-swipe4 {
-  background-color: var(--green-cl);
 }
 
 body.hide {
