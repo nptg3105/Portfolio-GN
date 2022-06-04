@@ -49,7 +49,6 @@
 .btn-project {
   padding: rem(20) rem(30);
   margin-right: rem(15);
-  text-align: center;
 }
 
 .btn-download {
@@ -135,7 +134,6 @@
 
     .about-text {
       padding: 0;
-      width: 90%;
     }
   }
 }
@@ -153,41 +151,30 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about1 {
-    .text-effect {
-      animation: none;
-      border-right: unset;
-      white-space: unset;
-      width: 100%;
-    }
-    .about-text {
-      width: 100%;
+  .detail-slide {
+    flex-direction: column;
+  }
 
-      h1 {
-        font-size: 50px;
-        padding-bottom: 0;
-      }
+  .about-img {
+    height: 68vh;
+  }
 
-      p {
-        padding: 20px 0;
-      }
+  .about-text {
+    text-align: center;
+    width: 100%;
+
+    h1 {
+      font-size: 50px;
+      padding-bottom: 0;
     }
 
-    .about-nr {
-      left: 70%;
-      top: 0;
+    p {
+      padding: 20px 0;
     }
+  }
 
-    .about-btn {
-      display: flex;
-      flex-direction: column;
-
-      .btn-download,
-      .btn-project {
-        margin-right: 0;
-        margin-bottom: rem(20);
-        width: 100%;
-      }
-    }
+  .about-nr {
+    left: 70%;
+    top: 0;
   }
 }

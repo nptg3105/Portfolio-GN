@@ -49,7 +49,6 @@
 .btn-project {
   padding: rem(20) rem(30);
   margin-right: rem(15);
-  text-align: center;
 }
 
 .btn-download {
@@ -181,13 +180,6 @@
     .about-btn {
       display: flex;
       flex-direction: column;
-
-      .btn-download,
-      .btn-project {
-        margin-right: 0;
-        margin-bottom: rem(20);
-        width: 100%;
-      }
     }
   }
 }
