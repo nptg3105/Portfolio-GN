@@ -320,20 +320,8 @@ body.hide {
 
     .hero-img {
       height: 31vh;
+      margin: 0 auto;
       width: 80%;
-      opacity: 0.5;
-    }
-
-    .slide {
-      position: relative;
-    }
-
-    .explore {
-      position: absolute;
-      top: -35%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-weight: bold;
     }
   }
 }

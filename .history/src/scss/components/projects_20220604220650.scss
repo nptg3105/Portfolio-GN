@@ -310,30 +310,10 @@ body.hide {
 }
 
 @media screen and (max-width: 768px) {
-  main {
-    .hero-desc {
-      h2 {
-        font-size: 35px;
-        margin-top: 10px;
-      }
-    }
-
-    .hero-img {
-      height: 31vh;
-      width: 80%;
-      opacity: 0.5;
-    }
-
-    .slide {
-      position: relative;
-    }
-
-    .explore {
-      position: absolute;
-      top: -35%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-weight: bold;
+  .hero-desc {
+    h2 {
+      font-size: 35px;
+      margin-top: 10px;
     }
   }
 }

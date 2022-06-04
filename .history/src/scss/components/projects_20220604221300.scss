@@ -321,7 +321,6 @@ body.hide {
     .hero-img {
       height: 31vh;
       width: 80%;
-      opacity: 0.5;
     }
 
     .slide {
@@ -330,10 +329,9 @@ body.hide {
 
     .explore {
       position: absolute;
-      top: -35%;
+      top: -70%;
       left: 50%;
       transform: translateX(-50%);
-      font-weight: bold;
     }
   }
 }
