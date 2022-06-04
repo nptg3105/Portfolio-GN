@@ -145,7 +145,17 @@
   h2 {
     font-size: rem(40);
     padding: rem(20) 0;
-    color: var(--orange-cl);
+    color: var(--blue-cl);
+  }
+
+  &__infor {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    i {
+      font-size: rem(20);
+      margin-right: rem(10);
+    }
   }
 }
 
