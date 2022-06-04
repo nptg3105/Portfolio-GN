@@ -39,11 +39,7 @@ function animateSlide() {
       reverse: false,
     })
       .setTween(slideTimeline)
-      //   .addIndicators({
-      //     colorStart: "white",
-      //     colorTrigger: "white",
-      //     name: "slide",
-      //   })
+
       .addTo(controller);
 
     //New Animation
@@ -64,12 +60,7 @@ function animateSlide() {
       duration: "100%",
       triggerHook: 0,
     })
-      //   .addIndicators({
-      //     // colorStart: "white",
-      //     // colorTrigger: "white",
-      //     // name: "page",
-      //     indent: 200,
-      //   })
+
       .setPin(slide, { pushFollowers: false })
       .setTween(pageTimeline)
       .addTo(controller);

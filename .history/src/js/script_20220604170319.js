@@ -39,11 +39,7 @@ function animateSlide() {
       reverse: false,
     })
       .setTween(slideTimeline)
-      //   .addIndicators({
-      //     colorStart: "white",
-      //     colorTrigger: "white",
-      //     name: "slide",
-      //   })
+
       .addTo(controller);
 
     //New Animation

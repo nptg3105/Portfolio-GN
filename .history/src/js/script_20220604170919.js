@@ -50,7 +50,7 @@ function animateSlide() {
     const pageTimeline = gsap.timeline();
     const nextSlide = slides.length - 1 === index ? "end" : slides[index + 1];
 
-    pageTimeline.fromTo(nextSlide, { y: "0%" }, { y: "50%" });
+    pageTimeline.fromTo(nextSlide, { y: "0%" }, { y: "0%" });
     pageTimeline.fromTo(
       slide,
       { opacity: 1, scale: 1 },
