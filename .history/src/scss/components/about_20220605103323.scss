@@ -13,6 +13,11 @@
   position: relative;
 }
 
+.skills-heading {
+  flex-basis: 1;
+  flex-grow: 1;
+}
+
 .about-img {
   height: 80vh;
   img {

@@ -1,0 +1,13 @@
+.footer {
+  margin: auto;
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  font-size: 30px;
+
+  a {
+    color: var(--white-cl);
+    text-decoration: none;
+  }
+}

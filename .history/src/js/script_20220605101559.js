@@ -93,7 +93,7 @@ function activeCursor(e) {
     item.id === "logo" ||
     item.classList.contains("burger") ||
     item.classList.contains("footer-item") ||
-    item.classList.contains("footer-icon")
+    item.classList.contains("footer-social")
   ) {
     mouse.classList.add("nav-active");
   } else {
