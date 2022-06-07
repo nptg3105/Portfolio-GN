@@ -97,6 +97,10 @@
   opacity: 0.2;
 }
 
+.about-btn {
+  height: 100%;
+}
+
 .swipe {
   position: fixed;
   width: 100%;
@@ -178,7 +182,6 @@
 
       p {
         padding: 20px 0;
-        margin-bottom: rem(20);
       }
     }
 
@@ -187,17 +190,17 @@
       top: 0;
     }
 
-    .about-btn {
-      display: flex;
-      flex-direction: column;
+    // .about-btn {
+    //   display: flex;
+    //   flex-direction: column;
 
-      .btn-download,
-      .btn-project {
-        margin-right: 0;
-        margin-bottom: rem(20);
-        width: 100%;
-      }
-    }
+    //   .btn-download,
+    //   .btn-project {
+    //     margin-right: 0;
+    //     margin-bottom: rem(20);
+    //     width: 100%;
+    //   }
+    // }
   }
 }
 

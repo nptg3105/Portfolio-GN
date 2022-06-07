@@ -97,6 +97,10 @@
   opacity: 0.2;
 }
 
+.about-btn {
+  height: 100%;
+}
+
 .swipe {
   position: fixed;
   width: 100%;
@@ -178,7 +182,6 @@
 
       p {
         padding: 20px 0;
-        margin-bottom: rem(20);
       }
     }
 
