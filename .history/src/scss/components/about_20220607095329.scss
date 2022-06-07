@@ -97,10 +97,6 @@
   opacity: 0.2;
 }
 
-.about-btn {
-  height: 100%;
-}
-
 .swipe {
   position: fixed;
   width: 100%;
@@ -130,7 +126,7 @@
 
     .about-img {
       height: 55vh;
-      margin-bottom: rem(30);
+      margin-bottom: rem(20);
 
       img {
         object-fit: cover;
@@ -138,12 +134,8 @@
     }
 
     .about-text {
-      padding-right: 0;
+      padding: 0;
       width: 90%;
-    }
-
-    .about-btn {
-      margin-bottom: rem(20);
     }
   }
 }
